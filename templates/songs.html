@@ -1,0 +1,92 @@
+{% extends 'root_template.html' %}
+
+
+{% block title%} Film Recommendations {% endblock %}
+
+
+<style>
+    .body{
+        background-color: red;
+    }
+</style> 
+
+{% block body %} 
+
+<h1 style="margin-top: 10%; margin-left: 1%; font-family: 'Oswald', sans-serif; padding: 1%">Songs</h1>
+
+
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7LxqhxqClpyc76C85V7Zs2?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+<div style="margin-top: 5%; background-color: black; margin-bottom:-5%">
+  <hr>
+<div style="display: block">
+<div style="display: inline-block;">
+
+<img src="https://i.ibb.co/0JmbXhp/284311-o02-center-97946-2-prev-ui.png" class="rotate" width="200" height="200" />
+
+<style>
+  
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+</style>
+</div>
+<div style="display:inline-block; border-right: 2px  solid rgb(80, 80, 80); padding:15px; min-height:10%; ">
+  <h3 style="color: white; font-family: 'Poppins', sans-serif;">Neon Cinematics</h3>
+  <p style="color: white">
+    Film  & Making Club of IIIT Kota
+  </p>
+</div>
+
+<div style="display:block; margin-right: 100px; float: right;">
+ 
+  <p class="name" style="color: white; font-size: 25px; margin-top:-12%; font-family: 'Poppins', sans-serif;" >
+    <br>
+    <br>
+    <br>
+    Developed by Abhinav Jain
+  </p>
+  <style>
+    .name {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%); 
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;}
+  /* 50% { background: linear-gradient(to left, #cc99ff 0%, #0000cc 100%); 
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;} */
+  100% { background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; }
+}
+  </style>
+</div>
+
+</div>
+<div style="display: block; margin-left: 43%;">
+
+  <p style="color: rgb(0, 0, 0); align-content: center;">Copyright © 2022 Neon Cinematics</p>
+  </div>
+</div>
+</div>
+    
+
+
+{% endblock %}
